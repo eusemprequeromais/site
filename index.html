@@ -3,191 +3,477 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Somos uma consultoria com objetivo de auxiliar pessoas com sede de conhecimento e vontade de aprender assuntos e habilidades novas através de infoprodutos com aulas e metodologias para construção de aprendizado sólido com exclência." />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Inteligência Brasil" />
+  <meta property="og:site" content="https://eusemprequeromais.com.br" />
+  <meta property="og:title" content=".:Eu Sempre Quero Mais:. - Os melhores infoprodutos e trilhas de conhecimento você só encontra aqui!" />
+  <meta property="og:description" content="Somos uma consultoria com objetivo de auxiliar pessoas com sede de conhecimento e vontade de aprender assuntos e habilidades novas através de infoprodutos com aulas e metodologias para construção de aprendizado sólido com exclência." />
+  <meta property="og:image" content="https://eusemprequeromais.com.br/images/favicon.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:url" content="https://eusemprequeromais.com.br" />
+  <link rel="canonical" href="https://eusemprequeromais.com.br" />
   <title>.:Eu Sempre Quero Mais:. - Os melhores infoprodutos e trilhas de conhecimento você só encontra aqui!</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
-  <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
-    media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
-  </noscript>
-  <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-  <link href="css/main.css?ver=1.2.0" rel="stylesheet">
-  <noscript>
-    <style>
-      .tf-header {
-        background: url('images/1-hero-image.jpg') no-repeat center center;
-      }
-    </style>
-  </noscript>
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 
-<body id="top">
-  <header class="tf-header" data-parallax="scroll" data-image-src="images/1-hero-image.jpg">
-    <nav class="navbar py-5 navbar-dark">
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
       <div class="container">
-        <h1><a class="navbar-brand" href="/">Eu Sempre Quero Mais</a></h1>
-        <div id="navbar">
-          <ul class="nav pull-right">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#work">Produtos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+        <div class="navbar-brand-wrapper d-flex w-100">
+          <img src="images/Group2.svg" title="Eu Sempre Quero Mais"
+            alt="Logo Eu Sempre Quero Mais">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="mdi mdi-menu navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+            <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+              <div class="navbar-collapse-logo">
+                <img src="images/Group2.svg" alt="">
+              </div>
+              <button class="navbar-toggler close-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-section">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#digital-marketing-section">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback-section">Testemunhos</a>
+            </li>
+            <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+              <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Fale conosco</button>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-sm-12">
-          <h2>Você gostaria de ter todo conhecimento do mundo <br>em suas mãos?</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-7 col-sm-12">
-          <p class="mt-4">Se sua resposta foi <strong>SIM</strong>, saiba que isso é possível na era atual. E nós
-            estamos aqui pra facilitar sua busca pelo conhecimento.</p>
-          <p class="mt-5"><strong class="text-uppercase">Você procura algum conhecimento específico?</strong><span> - Precisa de ajuda?</span></p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <!--<div class="col-md-4 col-sm-12 tf-hh-col">
-          <input class="mt-1 form-control" type="email" placeholder="*Seu e-mail">
-        </div>-->
-        <div class="col-md-3 col-sm-12"><a class="tf-header-heading-btn a btn btn-primary btn-block mt-1" href="#contact">Fale
-            conosco</a></div>
-      </div>
-    </div>
   </header>
-  <div class="page-content">
-    <div>
-      <div class="tf-work-section">
-        <div class="container" id="work">
-          <h2 class="h3">Nossas histórias de sucesso</h2>
+  <div class="banner">
+    <div class="container">
+      <h1 class="font-weight-semibold">Você gostaria de ter todo conhecimento do mundo em suas mãos?</h1>
+      <h6 class="font-weight-normal text-muted pb-3">Se sua resposta foi<strong> SIM</strong>, saiba que isso é possível
+        na era atual. E nós estamos aqui pra facilitar sua busca pelo conhecimento.
+        .</h6>
+      <div>
+        <button class="btn btn-opacity-light mr-1">Quero mais...</button>
+        <button class="btn btn-opacity-success ml-1">Vamos?</button>
+      </div>
+      <img src="images/Group171.svg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="features-overview" id="features-section">
+        <div class="content-header">
+          <h2>Como funciona?</h2>
+          <h6 class="section-subtitle text-muted">Aqui você escolhe um tema ou curso que mais lhe agrada para trilhar
+            seu conhecimento<br> com instrutores, profissionais e especialistas, no assunto de sua escolha.</h6>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-12 pt-2">
-              <div class="card"><img class="img-fluid card-img-top" src="images/2-start-simple.jpg"
-                  alt="2-start-simple" />
-                <div class="card-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit interdum sagittis, nisi
-                    ac aptent vitae est facilisi.</p><a class="card-link" href="#">Learn More</a>
+        <div class="d-md-flex justify-content-between">
+          <div class="grid-margin d-flex justify-content-start">
+            <div class="features-width">
+              <img src="images/Group12.svg" alt="" class="img-icons">
+              <h5 class="py-3">Otimização<br>de conhecimento</h5>
+              <p class="text-muted">Com um pequeno investimento, acreditamos que você poderá aprender rapidamente com a
+                didática e experiência dos instrutores</p>
+              <a href="#">
+                <p class="readmore-link">Saiba mais...</p>
+              </a>
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-center">
+            <div class="features-width">
+              <img src="images/Group7.svg" alt="" class="img-icons">
+              <h5 class="py-3">Monetizando<br>conhecimento</h5>
+              <p class="text-muted">Com uma nova habilidade adiquirida, você poderá implementar em seu negócio ou
+                iniciar um novo empreendimento se assim desejar!</p>
+              <a href="#">
+                <p class="readmore-link">Saiba mais...</p>
+              </a>
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-end">
+            <div class="features-width">
+              <img src="images/Group5.svg" alt="" class="img-icons">
+              <h5 class="py-3">Conteúdo<br> de Qualidade</h5>
+              <p class="text-muted">Para que sua busca pelo conhecimento seja fantástica, nós selecionamos os melhores
+                conteúdos de cada trilha.</p>
+              <a href="#">
+                <p class="readmore-link">Saiba mais...</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0">Uma suite completa<br>dos mais diversos aprendizados através de meios digitais.</h3>
+            <div class="col-lg-7 col-xl-6 p-0">
+              <p class="py-4 m-0 text-muted">Para que você tenha todo conhecimento na palma de sua mão, você precisa ter
+                apenas força de vontade e um celular, tablet ou computador com acesso a internet.</p>
+              <p class="font-weight-medium text-muted">"Permita-se ao conhecimento! Nunca é demais saber a mais."</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+            <img src="images/Group1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
+            <img src="images/Group2.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
+            <h3 class="m-0">Faça no seu tempo<br>com excelência.</h3>
+            <div class="col-lg-9 col-xl-8 p-0">
+              <p class="py-4 m-0 text-muted">Com conteúdo didático e de excelente qualidade, estamos aqui para facilitar
+                o acesso ao novo conhecimento ou habilidade desejada, um mundo repleto de experiências extraordinárias
+                que lhe trará novas visões de um novo caminho.</p>
+              <p class="pb-2 font-weight-medium text-muted">A jornada pelo conhecimento é fantástica, e estamos felizes
+                em ter você por aqui, esperamos que compartilhe com seus amigos para que tenham a mesma oportunidade em
+                adiquirir um pouco mais de conhecimento.</p>
+            </div>
+            <button class="btn btn-info">Saiba mais...</button>
+          </div>
+        </div>
+      </section>
+      <section class="case-studies" id="case-studies-section">
+        <div class="row grid-margin">
+          <div class="col-12 text-center pb-5">
+            <h2>Alguns conhecimentos adicionados</h2>
+            <h6 class="section-subtitle text-muted">"O conhecimento é em si mesmo um poder" - Francis Bacon</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-primary text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group95.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
+                      <button class="btn btn-white">Saiba mais...</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Online Marketing</h6>
+                  <p>Seo, Marketing</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-2">
-              <div class="card"><img class="img-fluid card-img-top" src="images/3-start-simple.jpg"
-                  alt="3-start-simple" />
-                <div class="card-body">
-                  <p class="text-muted">Porttitor varius auctor litora congue sociosqu montes eleifend facilisi
-                    elementum convallis, diam et nullam sem.</p><a class="card-link" href="#">Learn More</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-warning text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group108.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
+                      <button class="btn btn-white">Saiba mais...</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Web Development</h6>
+                  <p>Developing, Designing</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12 pt-2">
-              <div class="card"><img class="img-fluid card-img-top" src="images/4-start-simple.jpg"
-                  alt="4-start-simple" />
-                <div class="card-body">
-                  <p class="text-muted">Commodo convallis varius egestas purus rhoncus cras morbi dignissim, ligula
-                    vestibulum ultrices urna semper.</p><a class="card-link" href="#">Learn More</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-violet text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group126.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
+                      <button class="btn btn-white">Saiba mais...</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Web Designing</h6>
+                  <p>Designing, Developing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-success text-center card-contents">
+                  <div class="card-image">
+                    <img src="images/Group115.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
+                      <button class="btn btn-white">Saiba mais...</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Software Development</h6>
+                  <p>Developing, Designing</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="tf-quotes-section">
-        <div class="carousel slide mt-5" id="tf-carousel" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li class="active" data-target="#tf-carousel" data-slide-to="0"></li>
-            <li data-target="#tf-carousel" data-slide-to="1"></li>
-            <li data-target="#tf-carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url('images/5-start-simple-slider.jpg');">
-              <div class="carousel-caption">
-                <p class="slider-text-1">"Amazing product, Start Simple cares for their customers and helps them at
-                  every step.<br>I am a satisfied customer!"</p>
-                <p class="slider-text-2">Walter George<br>CEO, Founder of Gupply</p>
-              </div>
-            </div>
-            <div class="carousel-item" style="background-image: url('images/6-start-simple-slider.jpg');">
-              <div class="carousel-caption">
-                <p class="slider-text-1">"Start Simple thinks outside the box and offers solutions through the creative
-                  process of developing apps.<br>They helped me succeed!"</p>
-                <p class="slider-text-2">Nancy Young<br>Managing Director, Amazingly</p>
-              </div>
-            </div>
-            <div class="carousel-item" style="background-image: url('images/7-start-simple-slider.jpg');">
-              <div class="carousel-caption">
-                <p class="slider-text-1">"Simple yet elegant solution to showcase our product and services.<br>Couldn't
-                  have asked for more!"</p>
-                <p class="slider-text-2">Glenn Harrold<br>Marketing Manager</p>
-              </div>
-            </div>
-          </div><a class="carousel-control-prev" href="#tf-carousel" role="button" data-slide="prev"><span
-              class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Anterior</span></a><a
-            class="carousel-control-next" href="#tf-carousel" role="button" data-slide="next"><span
-              class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Próximo</span></a>
-        </div>
-      </div>
-      <div class="tf-contact-section">
-        <div class="container" id="contact">
-          <h2 class="h4">Ainda tem dúvidas?</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <h3 class="h5">Fale Conosco</h3>
-              <form action="https://formspree.io/f/myyljdzq" method="POST">
-                <div class="row no-gutters">
-                  <div class="col-lg-6 col-md-12 col-sm-12 tf-contact-col">
-                    <input class="bg-light form-control" type="text" name="name" placeholder="*Nome"
-                      required="required" />
-                  </div>
-                  <div class="col-lg-6 col-md-12 col-sm-12 pb-2">
-                    <input class="bg-light form-control" type="email" name="_replyto" placeholder="*E-mail"
-                      required="required" />
-                  </div>
+      </section>
+      <section class="customer-feedback" id="feedback-section">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2>O que nossos clientes tem a dizer</h2>
+            <h6 class="section-subtitle text-muted m-0">Esperamos que o próximo comentário seja o seu.</h6>
+          </div>
+          <div class="owl-carousel owl-theme grid-margin">
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
-                <div class="row pb-2 no-gutters">
-                  <div class="col-md-12 col-sm-12">
-                    <textarea class="bg-light mb-2 form-control" name="message" placeholder="*Mensagem" rows="5"
-                      required="required"></textarea>
-                  </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
                 </div>
-                <button class="btn btn-primary" type="submit">Enviar</button>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face15.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face16.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face1.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face2.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Tony Martinez</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face3.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Sophia Armstrong</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="images/face20.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus
+                    consectetuer turpis, suspendisse.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Cody Lambert</h6>
+                  <h6 class="customer-designation text-muted m-0">Marketing Manager</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact-section">
+        <div class="contact-us-bgimage grid-margin">
+          <div class="pb-4">
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Você tem algum infoproduto ou projeto?</h4>
+            <h4 class="pt-1" data-aos="fade-down">Quer compartilhar com o mundo?</h4>
+          </div>
+          <div data-aos="fade-up">
+            <button class="btn btn-rounded btn-outline-danger">Fale conosco</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact-details" id="contact-details-section">
+        <div class="row text-center text-md-left">
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <img src="images/Group2.svg" alt="" class="pb-2">
+            <div class="pt-2">
+              <p class="text-muted m-0">oi@eusemprequeromais.com.br</p>
+              <p class="text-muted m-0">+55 11 99999-9999</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Entre em contato</h5>
+            <p class="text-muted">Pra não perder nenhum conteúdo novo!</p>
+            <form>
+              <input type="text" class="form-control" id="Email" placeholder="E-mail">
+            </form>
+            <div class="pt-3">
+              <button class="btn btn-dark">Inscreva-se</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Nossas diretrizes</h5>
+            <a href="#">
+              <p class="m-0 pb-2">Termos</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">Política de Privacidade</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">Política de Cookie</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1">Mapa do Site</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Nosso endereço</h5>
+            <p class="text-muted">Av. Paulista, 807
+              <br>Bela Vista - SP, 01311-100
+            </p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <a href="#"><span class="mdi mdi-facebook"></span></a>
+              <a href="#"><span class="mdi mdi-twitter"></span></a>
+              <a href="#"><span class="mdi mdi-instagram"></span></a>
+              <a href="#"><span class="mdi mdi-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="border-top">
+        <p class="text-center text-muted pt-4">Copyright © 2021 <a href="https://www.eusemprequeromais.com.br/"
+            class="px-1">Eu Sempre Quero Mais</a>Todos os direitos reservados.</p>
+      </footer>
+      <!-- Modal for Contact - us Button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Fale Conosco</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Nome</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                  <label for="Email">E-mail</label>
+                  <input type="email" class="form-control" id="Email-1" placeholder="Seu e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Mensagem</label>
+                  <textarea class="form-control" id="Message" placeholder="Digite sua mensagem"></textarea>
+                </div>
               </form>
             </div>
-            <div class="col-md-6 col-sm-12 float-right text-right">
-              <h3 class="h5">Endereço</h3><span>Av. Paulista, 807<br />
-                Bela Vista - SP, 01311-100<br /> Brasil</span>
-              <p></p>
-              <h3 class="h5">Phone</h3>
-              <p>+55 11 99999-9999</p>
-              <h3 class="h5">E-mail</h3>
-              <p>oi@eusemprequeromais.com</p>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-success">Enviar</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <footer class="bg-dark py-4 mt-5 tf-footer">
-    <div class="container text-light">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">Copyright © 2021 <strong>Eu Sempre Quero Mais</strong> - Todos os direitos reservados.</div>
-        
-      </div>
-    </div>
-  </footer>
-  <script src="scripts/jquery.slim.min.js?ver=1.2.0"></script>
-  <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-  <script src="scripts/parallax.min.js?ver=1.2.0"></script>
-  <script src="scripts/main.js?ver=1.2.0"></script>
+  <script src="vendors/jquery/jquery.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="vendors/aos/js/aos.js"></script>
+  <script src="js/landingpage.js"></script>
 </body>
 
 </html>
